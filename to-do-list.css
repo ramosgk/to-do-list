@@ -3,29 +3,13 @@
     font-family: sans-serif;
 }
 
-h1 {
-    font-size: 35px;
-    text-align: center;
-}
-
 body {
     background: linear-gradient(90deg, rgba(65, 184, 131, 1) 0%, rgba(0, 212, 255,1)100%);
 }
 
-.enviar {
-    margin: 10px;
-    height: 50px;
-    width: 100px;
-}
-
-.div-button {
-    text-align: center;
-}
-
 .digitar-tarefa {
-    display: flex;
     align-items: center;
-    margin: 10px auto;
+    margin: 0px;
     height: 60px;
     width: 1225px;
     padding-left: 5%;
@@ -36,12 +20,11 @@ body {
 .button-add {
     height: 61px;
     width: 120px;
-    margin: 10px auto;
     cursor: pointer;
+    margin-left: 15px;
 }
 
 .ladoTexto {
-    display: flex;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -82,12 +65,15 @@ body {
 
 #alinharTexto {
     border-radius: 5px;
-    margin:0px;
+    margin: 0px;
 }
 
 .ladoBotao {
-    display: flex;
     width: 120px;
     height: 61px;
+}
+
+.alinharBt {
+    display: flex;
 }
 
