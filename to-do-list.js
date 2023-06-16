@@ -1,6 +1,5 @@
 const inputElement = document.querySelector('.digitar-tarefa');
 const addTaskButton = document.querySelector('.button-add');
-
 const tasksContainer = document.querySelector('.tasks-container')
 
 const validateInput = () => {
@@ -71,5 +70,4 @@ const handleInputChange = () => {
 }
 
 addTaskButton.addEventListener("click", () => handleAddTask());
-
 inputElement.addEventListener("change", () => handleInputChange());
